@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #363B47;
+  overflow: hidden;
+}
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header nav .brand p {
+  color: white;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  padding-top: 0.4em;
+  margin: 0;
+  list-style: none;
+}
+header nav ul li {
+  display: flex;
+  flex-direction: column;
+}
+header nav ul li a {
+  font-weight: 300;
+  padding: 1em;
+  text-decoration: none;
+  color: white;
+}
+header nav ul li:hover {
+  background: #3676BB;
+  border-radius: 3px;
+}
+
+/*# sourceMappingURL=style.css.map */

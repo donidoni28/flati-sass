@@ -213,6 +213,14 @@ footer .copyright p {
   }
 }
 @media screen and (max-width: 1024px) {
+  nav {
+    justify-content: normal !important;
+  }
+
+  .banner {
+    height: 15em !important;
+  }
+
   .main {
     width: 90%;
   }
